@@ -10,10 +10,10 @@
 	
 	$client = new Google_Client();
 	$client->setApplicationName("mapas");
-	$client->setClientId('78420355764-d4fh63pnmtpq89psund28buqlrd6juc0.apps.googleusercontent.com');
-	$client->setClientSecret('CToVfX1qlIO0DUUDqGaqIhxf');
+	$client->setClientId('');
+	$client->setClientSecret('');
 	$client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF']);  
-	$client->setDeveloperKey('AIzaSyDiggl82BdHo4QmLPW1HTOIxFAp1NXFEoM');
+	$client->setDeveloperKey('');
 	$client->setAccessType('offline');
 	$client->setScopes(array('https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/calendar.readonly', 
 	'https://www.googleapis.com/auth/plus.login', 'https://www.googleapis.com/auth/userinfo.email'));
